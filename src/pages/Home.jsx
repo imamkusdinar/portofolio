@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar"
 import Header from "../components/Header"
 import Portofolio from "../components/Portofolio"
+import About from "../components/About"
 function Home() {
   return (
    <>
@@ -8,6 +9,7 @@ function Home() {
    <Navbar />
    <Header />
    <Portofolio />
+   <About />
   
   </>
   )

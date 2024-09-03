@@ -1,6 +1,7 @@
 import './App.css'
-import './Navbar.css'
-import './Header.css'
+import './styles/Navbar.css'
+import './styles/Header.css'
+import './styles/Portofolio.css'
 import Home from './pages/Home.jsx'
 
 export default function App() {

@@ -18,12 +18,15 @@ function About() {
             when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
             It has survived not only five centuries, but also the leap into electronic typesetting, 
             remaining essentially unchanged.</p>
+            
+            
             <h4>Programming Language</h4>
             <div className='skills'>
             <FaHtml5 /><FaPhp /><FaLaravel /><RiReactjsFill /><SiMysql /><FaCss3Alt /><DiJavascript /><FaPython />
 
             </div>
         </div>
+        
         </section>
   )
 }

@@ -17,10 +17,10 @@ function Navbar() {
                   <a href="#">My Portofolio</a>
               </div>
               <button onClick={tampilMenu}><FaBars /></button>
-              <div className={`menu ${statusTampil}`}>
-                  <ul><li><a href="#">Portofolio</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Experience</a></li>
+              <div className={`menu ${statusTampil}`} onClick={tampilMenu}>
+                  <ul><li><a href="#portofolio">Portofolio</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#experience">Experience</a></li>
                   </ul>
               </div>
           </div>

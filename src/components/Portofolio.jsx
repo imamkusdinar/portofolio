@@ -11,7 +11,7 @@ function Portofolio() {
                 portofolioList.map((item)=>{
                   return(
                     <div className="item" key={item.id}>
-                      <a href=""><img src={item.image} /></a>
+                      <a href="/portofolio/portfolio"><img src={item.image} /></a>
                   </div>
                   )
                 })

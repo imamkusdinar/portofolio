@@ -3,8 +3,8 @@ import './styles/Navbar.css'
 import './styles/Header.css'
 import './styles/Portofolio.css'
 import Home from './pages/Home'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import DetailPortofolio from './pages/DetailPortofolio'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 function App() {
   return (

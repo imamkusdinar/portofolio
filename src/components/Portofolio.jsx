@@ -1,5 +1,5 @@
 import { portofolioList } from "../data/DataPortofolio"
-
+import { Link } from "react-router-dom"
 
 function Portofolio() {
   return (
@@ -11,7 +11,7 @@ function Portofolio() {
                 portofolioList.map((item)=>{
                   return(
                     <div className="item" key={item.id}>
-                      <a href="/portofolio/portfolio"><img src={item.image} /></a>
+                      <Link to={`/portofolio/portfolio/${item.id}`}><img src={item.image} /></Link>
                   </div>
                   )
                 })

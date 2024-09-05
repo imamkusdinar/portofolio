@@ -5,6 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import { FaSquareThreads } from "react-icons/fa6";
 
 
 
@@ -21,6 +22,7 @@ function Header() {
             <a href='#'><FaFacebook /></a>
             <a href='#'><FaTwitter /></a>
             <a href='#'><FaYoutube /></a>
+            <a href='#'><FaSquareThreads /></a>
             <a href='#'><FaWhatsapp /></a>
         </div>
 

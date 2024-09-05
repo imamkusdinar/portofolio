@@ -7,6 +7,10 @@ import { SiMysql } from "react-icons/si";
 import { FaCss3Alt } from "react-icons/fa";
 import { DiJavascript } from "react-icons/di";
 import { FaPython } from "react-icons/fa";
+import { SiCisco } from "react-icons/si";
+import { SiMikrotik } from "react-icons/si";
+import { SiArduino } from "react-icons/si";
+
 
 function About() {
   return (
@@ -22,11 +26,18 @@ function About() {
             
             <h4>Programming Language</h4>
             <div className='skills'>
-            <FaHtml5 /><FaPhp /><FaLaravel /><RiReactjsFill /><SiMysql /><FaCss3Alt /><DiJavascript /><FaPython />
+            <FaHtml5 /><FaPhp /><FaLaravel /><RiReactjsFill /><SiMysql /><FaCss3Alt /><DiJavascript /><FaPython /><SiArduino />
+
+            </div>
+            
+            <h4>Networking Skills</h4>
+            <div className='skills'>
+            <SiCisco /> <SiMikrotik />
+
 
             </div>
         </div>
-        
+      
         </section>
   )
 }
